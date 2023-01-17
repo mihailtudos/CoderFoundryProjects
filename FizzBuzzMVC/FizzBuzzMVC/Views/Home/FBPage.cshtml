@@ -1,0 +1,60 @@
+﻿@model FizzBuzzMVC.Models.FizzBuzz
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row g-5  py-5 row-cols-1 row-cols-lg-2">
+        <div class="col border-end border-2">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Fizz Buzz: A Coding Project</h1>
+            <h4 class="lead">
+                When it counts you Fizz Buzz. A Javascript coding exercise using loops.
+                Write a program that prints the numbers from 1 to 100 and for multiples of '3' display
+                'Fizz' instead of the number and for the multiples of '5' display 'Buzz'. If a multiples
+                of both display "FizzBuzz".
+            </h4>
+            <h2 class="mt-5 border-bottom border-2">Instructions</h2>
+            <p>
+                Enter 2 numbers. The first number will be used to evaluate Fizz.
+                The second number will be used to evaluate Buzz and FizzBuzz will be determined based on the combination ot the two numbers.
+            </p>
+        </div>
+        <div class="col">
+            <div>
+                <h5>Enter numbers</h5>
+                @*Form*@
+            <form asp-action="FBPage" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label asp-for="@Model.FizzValue">Fizz Value</label>
+                    <input type="number" asp-for="@Model.FizzValue" class="form-control" placeholder="Enter Fizz value" value="@Model.FizzValue" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.BuzzValue">Fizz Value</label>
+                    <input type="number" asp-for="@Model.BuzzValue" class="form-control" placeholder="Enter Fizz value" value="@Model.BuzzValue" />
+                </div>
+                <button type="submit" class="btn btn-dark mt-2">Submit</button>
+            </form>
+                <h2 class="mt-5 border-bottom border-2">Results</h2>
+                <div class="table-responsive">
+                    @if (Model.Result.Count > 0)
+			        {
+                        <table class="table-striped table-hover table table-dark">
+                            <thead>
+                                <tr>
+                                    <th colspan="5">Fizz Buzz Results</th>
+                                </tr>
+                            </thead>
+                            @for(int i = 0; i < Model.Result.Count(); i += 5)
+				            {
+                                <tr>
+                                    <td>@Model.Result[i]</td>
+                                    <td>@Model.Result[i + 1]</td>
+                                    <td>@Model.Result[i + 2]</td>
+                                    <td>@Model.Result[i + 3]</td>
+                                    <td>@Model.Result[i + 4]</td>
+                                </tr>
+				            }
+                        </table>
+			        }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
