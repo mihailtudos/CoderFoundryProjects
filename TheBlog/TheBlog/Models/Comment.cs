@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using TheBlog.Enums;
 
 namespace TheBlog.Models
 {
@@ -27,6 +28,8 @@ namespace TheBlog.Models
 		[StringLength(500, ErrorMessage = "The {0} must be at least {2} and not longer than {1}.", MinimumLength = 2)]
 		[Display(Name = "Moderated Comment")]
 		public string ModeratedBody { get; set; }
+
+		public ModerationType ModeratonType { get; set; }
 
 		//Navigation 
 		public virtual Post Post { get; set; }
