@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h0T9BOmCXTrcImGtPHJyzvSVHHvAnlOGOkPcuYmTnX329oMR8nIwbv61bHVow0Ip9Lqj4N4lPq1cdfDn2lkWXQ==",
+  "dgSpecHash": "4cC3QUvdTGUPVTU8KL7AWtiqmUCaQAEje9SRfgEJ6tgQNAqq6nMkPKMdszVcEx6CLnS3gezRbNWbcZ3E7DuHSA==",
   "success": true,
   "projectFilePath": "D:\\cf\\AddressBook\\AddressBook\\AddressBook.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.7\\npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",

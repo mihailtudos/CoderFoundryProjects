@@ -1,13 +1,16 @@
+using AddressBook.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;    
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace AddressBook
 {
@@ -23,6 +26,9 @@ namespace AddressBook
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			IServiceCollection serviceCollection = services.AddDbContext<ApplicationDbContext>(
+				options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
 			services.AddControllersWithViews();
 		}
 
