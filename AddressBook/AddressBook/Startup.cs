@@ -10,7 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using AddressBook.Services.Interfaces;
+using AddressBook.Services;
 
 namespace AddressBook
 {
@@ -27,8 +28,9 @@ namespace AddressBook
 		public void ConfigureServices(IServiceCollection services)
 		{
 			IServiceCollection serviceCollection = services.AddDbContext<ApplicationDbContext>(
-				options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+				options => options.UseNpgsql(DataUtility.GetConnectionString(Configuration)));
 
+			services.AddScoped< IImageService, BasicImageService >();
 			services.AddControllersWithViews();
 		}
 
