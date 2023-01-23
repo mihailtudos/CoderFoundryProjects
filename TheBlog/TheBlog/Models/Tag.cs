@@ -16,6 +16,6 @@ namespace TheBlog.Models
 		public string Text { get; set; }
 
 		public virtual Post Post { get; set; }
-		public virtual IdetityUser Author { get; set; }
+		public virtual BlogUser Author { get; set; }
 	}
 }
