@@ -392,3 +392,5 @@ D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\TheBlog.dll
 D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\ref\TheBlog.dll
 D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\TheBlog.pdb
 D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\TheBlog.genruntimeconfig.cache
+D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\Npgsql.dll
+D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -10,12 +10,12 @@ namespace TheBlog.Models
 	{
 		public int Id { get; set; }
 		public int PostId { get; set; }
-		public string AuthorId { get; set; }
+		public string BlogUserId { get; set; }
 		[Required]
 		[StringLength(25, ErrorMessage = "The {0} must be at least {2} and no longer than {1}", MinimumLength = 2)]
 		public string Text { get; set; }
 
 		public virtual Post Post { get; set; }
-		public virtual BlogUser Author { get; set; }
+		public virtual BlogUser BlogUser { get; set; }
 	}
 }

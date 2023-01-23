@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LVJvKbbV/XZJd/g2Ri/347QaMbZEhwe84JjxrCjS3anRY3skFoRAwTKmrBF/CwX8BMrx/v/PqMzG+JKN3iNZKw==",
+  "dgSpecHash": "2Zq6yFtvKHybWWu6z9kCNtsKpNHtnfdHlsVME4FXNlYsnsn4+1x0HWGebDDcb0GXxdMKvMf9XbMyTD4ViwXhww==",
   "success": true,
   "projectFilePath": "D:\\cf\\TheBlog\\TheBlog\\TheBlog.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql\\5.0.2\\npgsql.5.0.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.2\\npgsql.entityframeworkcore.postgresql.5.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
