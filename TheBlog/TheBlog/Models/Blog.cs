@@ -35,6 +35,7 @@ namespace TheBlog.Models
 
 		[NotMapped]
 		public IFormFile Imagine { get; set; }
+		[Display(Name = "Author")]
 
 		public virtual BlogUser BlogUser { get; set; }
 		public virtual ICollection<Post> Posts { get; set; } = new HashSet<Post>();
