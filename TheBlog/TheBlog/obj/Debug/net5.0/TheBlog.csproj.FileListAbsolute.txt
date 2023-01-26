@@ -6,7 +6,6 @@ D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\TheBlog.deps.json
 D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\TheBlog.runtimeconfig.json
 D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\TheBlog.runtimeconfig.dev.json
 D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\TheBlog.dll
-D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\ref\TheBlog.dll
 D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\TheBlog.pdb
 D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 D:\cf\TheBlog\TheBlog\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -497,3 +496,9 @@ D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewI
 D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\staticwebassets\TheBlog.StaticWebAssets.Pack.cache
+D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\staticwebassets\msbuild.TheBlog.Microsoft.AspNetCore.StaticWebAssets.props
+D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\staticwebassets\msbuild.build.TheBlog.props
+D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.TheBlog.props
+D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.TheBlog.props
+D:\cf\TheBlog\TheBlog\obj\Debug\net5.0\refint\TheBlog.dll
